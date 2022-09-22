@@ -6,6 +6,7 @@ import org.zerock.domain.Criteria;
 import org.zerock.domain.ReplyVO;
 
 public interface ReplyMapper {
+	
 	public int insert(ReplyVO vo);
 	
 	public ReplyVO read(Long bno); //특정 댓글 찾기
